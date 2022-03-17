@@ -1,0 +1,43 @@
+.footer {
+  display: inline-block;
+  position: absolute;
+  z-index: 100;
+  bottom: 2rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.footer ul {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 0.5rem;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.footer ul li a {
+  color: whitesmoke;
+  font-size: 1rem;
+  text-decoration:underline;
+}
+.footer p{
+  display: block;
+  margin: 0;
+  box-sizing: border-box;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
